@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <iostream> 
+using namespace std; 
+int main()
+{
+    int a, b;
+    cout<< "Ingrese los numeros para realizar operaciones: " ;
+    cout << "Ingrese el primer numero: " ;
+    cin>> a;
+    cout << "Ingrese el segundo numero: " ;
+    cin>> b; 
+    cout << "La suma es: " << a+b << endl ; 
+    
+    cout << "La resta: " << a-b << endl ; 
+    
+    cout << "La multiplicacion es: " << a*b<< endl ;
+    
+    cout << "La division es: " << a/b<< endl ;
+    
+     cout << "El resto es: " << a%b<< endl;
+
+    return 0;
+}
