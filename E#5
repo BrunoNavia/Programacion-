@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+int main()
+{
+   float a, b, c; 
+   cout<<"Ingrese las horas trabajadas:  "<<endl;
+   cin>>a;
+   cout<< "Ingrese el pago por hora: "<< endl;
+   cin>>b; 
+   c=a*b;
+   if (c>8272)
+   {
+  cout<<"El salario bruto es: "<<c*0.87<<endl;
+}
+else
+{
+  cout<<"El salario bruto es: "<< c<<endl;
+}
+   
+   return 0;
+}
